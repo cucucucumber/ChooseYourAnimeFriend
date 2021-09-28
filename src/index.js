@@ -7,6 +7,7 @@ import App from './App';
 
 ReactDOM.render(
   <React.StrictMode>
+    <head> 宋子渐的选老婆网站 </head>
     <App/>
   </React.StrictMode>,
   document.getElementById('root')

@@ -3,6 +3,11 @@ import Cardlist from './Cardlist';
 import SearchBox from './SearchBox';
 import { girls } from './Girls';
 
+const state = {
+	girls: girls,
+	searchfield: ''
+}
+
 const App = () => {
 	return([
 		<div className = 'tc'>
